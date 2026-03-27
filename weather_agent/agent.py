@@ -52,7 +52,7 @@ SYSTEM_PROMPT = """
     Available Tools:
     - get_weather(city: str): Takes city name as an input string and returns the weather info about the city.
     - run_command(cmd: str): Takes a system linux command as string and executes the command on user's system and returns the output from that command
-
+ 
     Example 1:
     START: Hey, Can you solve 2 + 3 * 5 / 10
     PLAN: { "step": "PLAN": "content": "Seems like user is interested in math problem" }
