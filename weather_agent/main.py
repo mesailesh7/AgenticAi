@@ -1,9 +1,9 @@
 from openai import OpenAI
 from dotenv import load_dotenv
 import requests
+import json
 
 load_dotenv()
-
 client = OpenAI()
 
 
