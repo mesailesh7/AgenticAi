@@ -1,0 +1,65 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "lsp_highlight_debounce": 25,
+  "diagnostics": {
+    "lsp_pull_diagnostics": {
+      "debounce_ms": 10
+    }
+  },
+  "prettier": {
+    "allowed": true
+  },
+  "disable_ai": true,
+  "project_panel": {
+    "default_width": 229.0,
+    "entry_spacing": "comfortable",
+    "dock": "right"
+  },
+  "cursor_shape": "bar",
+  "cursor_blink": true,
+  "buffer_line_height": "standard",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "icon_theme": "Zed (Default)",
+  "terminal": {
+    "font_size": 12.0,
+    "font_family": "monospace"
+  },
+  "base_keymap": "VSCode",
+  "minimap": {
+    "show": "never",
+    "thumb": "always"
+  },
+  "buffer_font_family": "IBM Plex Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 14.0,
+  "theme": "Ayu Dark",
+  "format_on_save": "on",
+  "completions": {
+    "lsp_fetch_timeout_ms": 1000
+  },
+  "lsp": {
+    "typescript-language-server": {
+      "initialization_options": {
+        "preferences": {
+          "includeCompletionsForModuleExports": true,
+          "includeInlayParameterNameHints": "all"
+        }
+      }
+    }
+  },
+  "languages": {
+    "Python": {
+      "language_servers": ["!basedpyright", "ty", "ruff"]
+    }
+  }
+}
